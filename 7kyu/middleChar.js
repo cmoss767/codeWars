@@ -4,15 +4,5 @@
 //  return the middle 2 characters.
 
 function getMiddle(s){
-
-     s.length%2==0 ? console.log( s.substring(s.length/2 -1 ,s.length/2+1 ) ) : console.log( s.substring(s.length/2 ,s.length/2+1) )
-//   if(s.length %2==0){
-//     console.log( s.substring(s.length/2 -1 ,s.length/2+1 ) )
-//     }
-// else if(s.length%2!=0){
-//     console.log( s.substring(s.length/2 ,s.length/2+1) )
-   
-//   }
+     return s.length%2==0 ? s.substring(s.length/2-1 ,s.length/2+1) : s.substring(s.length/2 ,s.length/2+1) 
 }
-
-getMiddle('chemistrys')
