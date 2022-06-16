@@ -1,0 +1,1 @@
+const reverseNumber = n => parseInt(String(n).split('').reverse().join('')) * Math.sign(n)
